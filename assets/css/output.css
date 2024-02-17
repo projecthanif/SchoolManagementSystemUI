@@ -796,6 +796,14 @@ video {
   width: 1.25rem;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[450px\] {
+  width: 450px;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -1178,6 +1186,10 @@ video {
     height: 100vh;
   }
 
+  .max-sm\:h-\[560px\] {
+    height: 560px;
+  }
+
   .max-sm\:w-5 {
     width: 1.25rem;
   }
@@ -1192,6 +1204,18 @@ video {
 
   .max-sm\:w-\[400px\] {
     width: 400px;
+  }
+
+  .max-sm\:w-96 {
+    width: 24rem;
+  }
+
+  .max-sm\:w-80 {
+    width: 20rem;
+  }
+
+  .max-sm\:flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
   }
 
   .max-sm\:bg-red-500 {
