@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  background-color: #f3f6ff;
+  background-image: linear-gradient(
+    62deg,
+    #f3f6ff 0%,
+    #dfdefe 50%,
+    #ffffff 100%
+  );
+  background-repeat: no-repeat;
+  background-size: contain;
+}
