@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+      integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/css/custom.css" />
     <link rel="stylesheet" href="./assets/css/output.css" />
     <title>Document</title>
@@ -75,7 +82,7 @@
       </div>
     </main>
 
-    <!-- LOGIN MODEL -->
+    <!-- LOGIN MODEL || DIALOG -->
 
     <div
       class="relative z-10 hidden"
@@ -90,9 +97,12 @@
 
       <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
         <div
-          class="flex min-h-full items-end justify-center p-4 sm:items-center sm:p-0"
+          class="flex min-h-fit items-end justify-center p-4 sm:items-center sm:p-0"
         >
-          <div class="w-[450px] rounded-md p-8 h-fit bg-white">
+          <div class="w-[450px] rounded-md p-8 bg-white mt-8">
+            <button id="close">
+              <i class="bx bx-x text-red-500 text-2xl"></i>
+            </button>
             <div class="text-center">
               <h1 class="text-4xl text-[#696CFF] font-bold">Login</h1>
               <p class="font-bold text-sm tracking-widest mt-3">
@@ -104,8 +114,8 @@
                 <h4 class="font-semibold">Email</h4>
                 <input
                   type="text"
-                  name=""
-                  id=""
+                  name="email"
+                  id="lemail"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
@@ -113,8 +123,8 @@
                 <h4 class="font-semibold">Password</h4>
                 <input
                   type="text"
-                  name=""
-                  id=""
+                  name="password"
+                  id="lpossword"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
@@ -156,6 +166,9 @@
           class="flex min-h-full items-end justify-center p-4 sm:items-center sm:p-0"
         >
           <div class="w-[450px] rounded-md p-8 h-fit bg-white">
+            <button id="close2">
+              <i class="bx bx-x text-red-500 text-2xl"></i>
+            </button>
             <div class="text-center">
               <h1 class="text-4xl text-[#696CFF] font-bold">Sign Up</h1>
               <p class="font-bold text-sm tracking-widest mt-3">
@@ -168,7 +181,7 @@
                 <input
                   type="text"
                   name="fullname"
-                  id=""
+                  id="name"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
@@ -177,7 +190,7 @@
                 <input
                   type="text"
                   name="regNo"
-                  id=""
+                  id="regNo"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
@@ -186,7 +199,7 @@
                 <input
                   type="text"
                   name="faculty"
-                  id=""
+                  id="faculty"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
@@ -195,7 +208,7 @@
                 <input
                   type="text"
                   name="department"
-                  id=""
+                  id="department"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
@@ -204,7 +217,7 @@
                 <input
                   type="text"
                   name="email"
-                  id=""
+                  id="email"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
@@ -213,7 +226,7 @@
                 <input
                   type="password"
                   name="password"
-                  id=""
+                  id="password"
                   class="border-2 mt-1 rounded-md p-2 w-80"
                 />
               </div>
