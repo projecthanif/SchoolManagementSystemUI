@@ -7,10 +7,10 @@ const signUp2 = document.querySelector('#signUp2');
 const logIn2 = document.querySelector('#logIn2');
 
 signUp1.addEventListener('click', signUpToggle);
-logIn1.addEventListener('click', LoginToggle);
+logIn1.addEventListener('click', loginToggle);
 
 signUp2.addEventListener('click', signUpToggle);
-logIn2.addEventListener('click', LoginToggle);
+logIn2.addEventListener('click', loginToggle);
 
 
 close.addEventListener('click', closingModel);
@@ -26,7 +26,7 @@ function signUpToggle() {
     }
 }
 
-function LoginToggle() {
+function loginToggle() {
     const loginModel = document.querySelector('#loginModel');
     if (loginModel.classList.contains('hidden')) {
         loginModel.classList.remove('hidden')
@@ -46,3 +46,4 @@ function closingModel() {
     }
 
 }
+
